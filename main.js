@@ -5,8 +5,9 @@
   
   
   
-  for(i=0; i<slider.length; i++){
-    
-  }
+  setInterval(function(){
+    for ( var i=0; i < slider.length; i++){
+      slider[i].style.opacity = 0;
+  }, 3000);
 
 })();
