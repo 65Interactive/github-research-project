@@ -7,6 +7,11 @@
   display:block;
   margin-left:auto;
   margin-right:auto;
+  transition: opacity .5s ease-in;
+}
+
+.movieGallery + .movieGallery{
+  opacity:0;
 }
 
 p {
