@@ -31,10 +31,11 @@
 <?php
 
 	include('includes/nav.html');
-echo	'<div id="1" class="movieGallery"></div>
-    	<div id="2" class="movieGallery"></div>
-    	<div id="3" class="movieGallery"></div>
-    	<div id="4" class="movieGallery"></div>';
+echo	'<div id="1" class="movieGallery"><img src="images/BluraySplashScreen.jpg" alt="image for bluray gallery splash intro"></div>
+    	<div id="2" class="movieGallery"><img src="images/BridgetoTerabithia.jpg" alt="Bridge to Terabithia movie introduction image"></div>
+    	<div id="3" class="movieGallery"><img src="images/IntoTheBlue.jpg" alt="Into The Blue movie introduction image"></div>
+    	<div id="4" class="movieGallery"><img src="images/PiratesoftheCarribean.jpg" alt="Pirates of the Carribean movie introduction image"></div>
+    	<div id="5" class="movieGallery"><img src="images/TheLabyrinth.jpg" alt="The Labyrinth movie introduction image"></div>';
 	if(!is_string($getMovies)){
 		while($row = mysqli_fetch_array($getMovies)){
 			echo "<img src=\"images/{$row['movies_thumb']}\" alt=\"{$row['movies_title']}\">

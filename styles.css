@@ -1,9 +1,15 @@
 
 
 .movieGallery {
-  background-color:#f1600;
+  background-color:white;
   width: 1280px;
   height:720px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
+p {
+font-family: 'Open Sans', sans-serif;
+}
 
