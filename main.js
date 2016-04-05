@@ -1,6 +1,7 @@
 (function(){
   
-  var slider = document.querySelectorAll("movieGallery");
+  var slider = document.querySelectorAll("movieGallery"),
+      current = 0;
   
   
   
