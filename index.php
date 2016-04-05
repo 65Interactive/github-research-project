@@ -31,10 +31,6 @@
 <?php
 
 	include('includes/nav.html');
-	<div id="1" class="movieGallery"></div>
-    	<div id="2" class="movieGallery"></div>
-    	<div id="3" class="movieGallery"></div>
-    	<div id="4" class="movieGallery"></div>
 	
 	if(!is_string($getMovies)){
 		while($row = mysqli_fetch_array($getMovies)){
